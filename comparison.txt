@@ -1,0 +1,26 @@
+
+///MATLAB
+>> pa
+pa =
+     3     3     0
+     3     8     0
+     3     3     0
+>> pb
+pb =
+     6     5     0
+     6     8     0
+     6     8     0
+>> [Points,Distances]=lineIntersect3D(pa,pb)
+Points =
+    6.6808    7.2528         0
+Distances =
+    1.4968
+    0.7472
+    0.9682
+>>
+
+///PYTHON
+python lineInt.py 
+[ 6.68081181  7.25276753  0.        ]
+[ 1.49676944  0.74723247  0.96823924]
+
